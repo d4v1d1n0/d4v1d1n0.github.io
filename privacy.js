@@ -1,1 +1,0 @@
-<script src="https://www.gdprset.it/widget/gdpr-it-1.js" type="text/javascript"></script>
