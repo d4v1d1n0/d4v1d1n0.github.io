@@ -92,7 +92,35 @@
     }
   }
   section{
-    background: url("forestabellina.jpg") no-repeat;
+    background: url("images/forestabellina.jpg") no-repeat;
     background-size: cover;
     height: calc(100vh - 80px);
   }
+  
+/*======================
+   Set cookies
+=======================*/
+#cookie-bar{
+	background: #0a5481;
+	display:block;
+    position: fixed;
+    bottom: 10px;
+    width: 300px;
+    left: 6%;
+    padding: 20px;
+  font-family:arial;
+    color: #fff;}
+	#cookie-bar a{ 
+	color:#999;
+	display:block;
+	padding:10px 0;
+	}
+#Cookie{  
+	background: #ff7916;
+    border: none;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}

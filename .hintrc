@@ -4,6 +4,14 @@
   ],
   "hints": {
     "meta-viewport": "off",
-    "axe/forms": "off"
+    "axe/forms": "off",
+    "disown-opener": "off",
+    "axe/language": [
+      "default",
+      {
+        "html-has-lang": "off"
+      }
+    ],
+    "no-inline-styles": "off"
   }
 }
