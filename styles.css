@@ -1,84 +1,12 @@
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
 }
 
-.navbar {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
+h1 {
+    color: blue;
 }
 
-.navbar-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 20px;
-}
-
-.navbar-links {
-    display: flex;
-    gap: 20px;
-}
-
-.navbar-links a {
-    color: white;
-    text-decoration: none;
-}
-
-.section {
-    padding: 50px;
-    text-align: center;
-}
-
-.home-section {
-    background: url('immaginine/forestabellina.jpg') no-repeat center center/cover;
-    color: white;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.home-content {
-    background: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 10px;
-}
-
-/* Navbar responsive */
-@media (max-width: 768px) {
-    .navbar-links {
-        display: none;
-    }
-    .menu-toggle {
-        cursor: pointer;
-        display: block;
-    }
-    .menu-toggle .bar {
-        background-color: white;
-        height: 3px;
-        width: 25px;
-        margin: 5px 0;
-        transition: 0.4s;
-    }
-    .menu-open .bar:nth-child(1) {
-        transform: rotate(-45deg) translate(-5px, 6px);
-    }
-    .menu-open .bar:nth-child(2) {
-        opacity: 0;
-    }
-    .menu-open .bar:nth-child(3) {
-        transform: rotate(45deg) translate(-5px, -6px);
-    }
-    .menu-open #navbar-links {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        position: absolute;
-        background-color: #333;
-        top: 60px;
-        left: 0;
-    }
+p {
+    font-size: 18px;
 }

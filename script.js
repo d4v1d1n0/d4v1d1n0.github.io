@@ -1,6 +1,4 @@
-const mobileMenuButton = document.getElementById("mobile-menu");
-const navbarLinks = document.getElementById("navbar-links");
-
-mobileMenuButton.addEventListener("click", () => {
-    navbarLinks.classList.toggle("menu-open");
-});
+// Codice per mostrare un messaggio di benvenuto o privacy banner
+window.onload = function() {
+    alert("Benvenuti sul mio sito!");
+};
